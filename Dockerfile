@@ -1,2 +1,2 @@
-FROM alpine:3.10.2
-RUN apk update; apk add git make gcc libpcap g++ gcc libpcap-dev
+FROM centos:centos7.6.1810
+RUN yum install  git make gcc libpcap g++ gcc libpcap-dev libpcap-devel  -y
